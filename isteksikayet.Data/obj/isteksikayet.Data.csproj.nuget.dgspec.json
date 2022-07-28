@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Data\\isteksikayet.Data.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Data\\isteksikayet.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Data\\isteksikayet.Data.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Data\\isteksikayet.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Data\\isteksikayet.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Data\\isteksikayet.Data.csproj",
         "projectName": "isteksikayet.Data",
-        "projectPath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Data\\isteksikayet.Data.csproj",
-        "packagesPath": "C:\\Users\\Mehmet Kelleli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Data\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Data\\isteksikayet.Data.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mehmet Kelleli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj": {
-                "projectPath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj"
+              "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj"
               }
             }
           }
@@ -80,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj",
         "projectName": "isteksikayet.Entity",
-        "projectPath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj",
-        "packagesPath": "C:\\Users\\Mehmet Kelleli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\isteksikayet\\isteksikayet.Entity\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Entity\\isteksikayet.Entity.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\isteksikayet\\isteksikayet.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mehmet Kelleli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -138,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
