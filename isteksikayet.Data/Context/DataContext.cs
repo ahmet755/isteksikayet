@@ -14,7 +14,7 @@ namespace isteksikayet.Data.Context
         public DbSet<Complaint> Complaints { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-3DP2PDF;Database=DataDb;Integrated Security=True");
+            optionsBuilder.UseSqlServer("server=USER;Database=DataDb;Integrated Security=True");
         }
     }
 }

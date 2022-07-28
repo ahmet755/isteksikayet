@@ -11,11 +11,11 @@
           <div class="col-10">
               @if (Model.Count == 0)
     {
-    <div class="alert alert-danger"> No Complaint</div>
+    <div class="alert alert-danger"> Her Hangi Bir Şikayet Yok.</div>
      }
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">DataTable with minimal features & hover style</h3>
+                <h3 class="card-title">Herhangi Bir Veri Bulunamdı.</h3>
               </div>
               <!-- /.card-header -->
                     @if(Model.Count > 0)
@@ -24,11 +24,11 @@
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>Name</th>
-                    <th>Department</th>
-                    <th>File Url</th>
-                    <th>Approva</th>
-                    <th>Process</th>
+                    <th>İsim</th>
+                    <th>Departman</th>
+                    <th>Dosya Url</th>
+                    <th>Durum</th>
+                    <th>İşlemler</th>
                     <th></th>
                     <th></th>
                   </tr>
@@ -39,11 +39,11 @@
                   <tr>
                     <td>@item.Name</td>
                     <td>@item.Department.Name</td>
-                    <td><a href="~/Files/@item.FileUrl">@(@item.FileUrl==null?"No File":"open")</a></td>
-                    <td><p class="btn btn-outline-@(item.Approval==true?"success":"danger")">@(item.Approval==true?"True":"False")</p></td>
-                    <td><a asp-controller="Home" asp-action="ComplaintDetails" asp-route-id="@item.Id"><button class=" btn btn-outline-success">Details</button></a></td>
-                    <td><a asp-controller="Home" asp-action="ComplaintUpdate" asp-route-id="@item.Id"><button class=" btn btn-outline-warning">Update</button></a></td>
-                    <td><a asp-controller="Home" asp-action="ComplaintDelete" asp-route-id="@item.Id"><button class=" btn btn-outline-danger">Delete</button></a></td>
+                    <td><a target=”_blank” href="~/Files/@item.FileUrl">@(@item.FileUrl==null?"Dosya Eklenmemiş":"Dosyayı Aç")</a></td>
+                    <td><p class="btn btn-outline-@(item.Approval==true?"success":"danger")">@(item.Approval==true?"Onaylandı":"Onaylanmadı")</p></td>
+                    <td><a asp-controller="Home" asp-action="ComplaintDetails" asp-route-id="@item.Id"><button class=" btn btn-outline-success">Detay</button></a></td>
+                    <td><a asp-controller="Home" asp-action="ComplaintUpdate" asp-route-id="@item.Id"><button class=" btn btn-outline-warning">Güncelle</button></a></td>
+                    <td><a asp-controller="Home" asp-action="ComplaintDelete" asp-route-id="@item.Id"><button class=" btn btn-outline-danger">Sil</button></a></td>
                   </tr>
                  }
                  

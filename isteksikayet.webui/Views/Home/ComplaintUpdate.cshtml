@@ -9,12 +9,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>General Form</h1>
+            <h1>Şikayet Formu</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Complaint Update</li>
+              <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
+              <li class="breadcrumb-item active">Şikayet Güncelleme</li>
             </ol>
           </div>
         </div>
@@ -30,33 +30,33 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Complaint @Model.Name</h3>
+                <h3 class="card-title">Şikayet @Model.Name</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form asp-controller="Home" asp-action="ComplaintUpdate" method="post" enctype="multipart/form-data">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input asp-for="Name" class="form-control" placeholder="Enter Complaint Name" value="@Model.Name">
+                    <label for="exampleInputEmail1">E-Posta Adresi</label>
+                    <input asp-for="Name" class="form-control" placeholder="Şikayet İsmini Girin" value="@Model.Name">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Description</label>
-                    <input asp-for="Description" class="form-control" placeholder="Enter Complaint Description" value="@Model.Description">
+                    <label for="exampleInputEmail1">Şikayet</label>
+                    <input asp-for="Description" class="form-control" placeholder="Şikayet Açıklamasını Girin" value="@Model.Description">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Complaint Contains File</label>
+                    <label for="exampleInputEmail1">Şikayet Dosyası</label>
                     <input type="hidden" value="@Model.FileUrl" class="form-control">
                     <input type="file" name="File">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Department</label>
+                    <label for="exampleInputEmail1">Departman</label>
                     <select asp-for="DepartmentId" asp-items="@ViewBag.Department" class="form-control"></select>
                   </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">Kaydet</button>
                 </div>
               </form>
             </div>
