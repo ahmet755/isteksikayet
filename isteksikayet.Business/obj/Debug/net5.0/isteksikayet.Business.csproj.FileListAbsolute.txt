@@ -1,0 +1,17 @@
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\bin\Debug\net5.0\isteksikayet.Business.deps.json
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\bin\Debug\net5.0\isteksikayet.Business.dll
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\bin\Debug\net5.0\isteksikayet.Business.pdb
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\bin\Debug\net5.0\isteksikayet.Data.dll
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\bin\Debug\net5.0\isteksikayet.Entity.dll
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\bin\Debug\net5.0\isteksikayet.Data.pdb
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\bin\Debug\net5.0\isteksikayet.Entity.pdb
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\isteksikayet.Business.csproj.AssemblyReference.cache
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\isteksikayet.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\isteksikayet.Business.AssemblyInfoInputs.cache
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\isteksikayet.Business.AssemblyInfo.cs
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\isteksikayet.Business.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\isteksikayet.Business.csproj.CopyComplete
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\isteksikayet.Business.dll
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\refint\isteksikayet.Business.dll
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\isteksikayet.Business.pdb
+C:\Users\Mehmet Kelleli\Desktop\myblog\isteksikayet\isteksikayet.Business\obj\Debug\net5.0\ref\isteksikayet.Business.dll

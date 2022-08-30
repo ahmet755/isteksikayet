@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\isteksikayet.Data\isteksikayet.Data.csproj" />
+    <ProjectReference Include="..\isteksikayet.Entity\isteksikayet.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

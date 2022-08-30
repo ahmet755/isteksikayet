@@ -1,0 +1,61 @@
+﻿@model List<Complaint>
+@{
+    ViewData["Title"] = "ComplaintList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content mt-3">
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-2"></div>
+          <div class="col-10">
+              @if (Model.Count == 0)
+    {
+    <div class="alert alert-danger"> No Complaint</div>
+     }
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">DataTable with minimal features & hover style</h3>
+              </div>
+              <!-- /.card-header -->
+                    @if(Model.Count > 0)
+                    {
+                         <div class="card-body">
+                <table id="example2" class="table table-bordered table-hover">
+                  <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>File Url</th>
+                    <th>Approva</th>
+                    <th>Process</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  @foreach (var item in Model)
+                 {
+                  <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Department.Name</td>
+                    <td><a href="~/Files/@item.FileUrl">@(@item.FileUrl==null?"No File":"open")</a></td>
+                    <td><p class="btn btn-outline-@(item.Approval==true?"success":"danger")">@(item.Approval==true?"True":"False")</p></td>
+                    <td><a asp-controller="Home" asp-action="ComplaintDetails" asp-route-id="@item.Id"><button class=" btn btn-outline-success">Details</button></a></td>
+                    <td><a asp-controller="Home" asp-action="ComplaintUpdate" asp-route-id="@item.Id"><button class=" btn btn-outline-warning">Update</button></a></td>
+                    <td><a asp-controller="Home" asp-action="ComplaintDelete" asp-route-id="@item.Id"><button class=" btn btn-outline-danger">Delete</button></a></td>
+                  </tr>
+                 }
+                 
+                  </tbody>
+                </table>
+              </div>
+                    }
+                    <!-- /.card-body -->
+            </div>
+            </div>
+            </div>
+            </div>
+   </section>>
+
+  
